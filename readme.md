@@ -1,4 +1,4 @@
-# MBA - Desenvolvimento Front-end - Modulo 1
+# Trabalho Prático - Módulo 1
 Projeto prático da matéria de Design para Front-End. Neste projeto, foi utilizado HTML 5, CSS3 e Javascript (Vanilla) para realizar consulta a API do `restcountries.com` e obter a lista de países com suas respectivas bandeiras. Foi utilizado Sass como pré-processador CSS para estilizar o projeto.
 
 ## Stacks utilizadas
