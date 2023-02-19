@@ -1,0 +1,56 @@
+
+
+:root {
+  --rosa: #d52856;
+  --rosa-sombra: #d52249;
+  --branco: #ffffff;
+  --preto: #000000;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+.btn-primario{
+  background-color: var(--rosa);
+  border-color: var(--rosa);
+  color: var(--branco);
+}
+
+.btn-primario:hover{
+  background-color: var(--rosa-sombra);
+  border-color: var(--rosa-sombra);
+  color: var(--branco);
+}
+
+.logo {
+  height: 40px;
+}
+
+.carousel-item{
+  background-color: #000000;
+  height: 60vh;
+  background-position: center center;
+}
+.carousel-item > img {object-fit: cover;}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #080d15;
+  opacity: .7;
+}
+
+.carousel-caption{
+  z-index: 1;
+  text-align: left;
+}
+
+.avatar{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 200px;
+}
